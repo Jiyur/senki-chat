@@ -1,0 +1,65 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Chào",
+        "Xin chào",
+        "Có ai ở đây không",
+        "Tôi muốn hỏi",
+        "Hello",
+        "Hi"
+      ],
+      "responses": [
+        "Xin chào :-)",
+        "Chào mừng bạn đến với senki, tôi có thể giúp gì cho bạn?",
+        "Chào bạn, tôi có thể giúp gì?",
+        "Chào bạn, bạn muốn hỏi gì không?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Tạm biệt", "Hẹn gặp lại", "bái bai","bai","bye","goodbye"],
+      "responses": [
+        "Hẹn gặp lại quý khách",
+        "Chúc quý khách một ngày tốt lành",
+        "Tạm biệt quý khách"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Ở đây có những loại nhạc cụ nào",
+        "Shop có bán guitar không",
+        "Bạn có kinh doanh piano không"
+      ],
+      "responses": [
+        "Hiện tại, senki shopi đang kinh doanh những loại nhạc cụ sau: Guitar, Piano, Ukele",
+        "Chào quý khách, hiện tại chúng tôi đang kinh doanh những loại nhạc cụ sau: Guitar, Piano, Ukele"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Tôi có thể sử dụng Paypal để mua không?",
+        "Có thể thanh toán bằng thẻ ATM không?",
+        "Shop có chấp nhận trả tiền bằng COD không?"
+      ],
+      "responses": [
+        "Hiện tại shop hỗ trợ 2 phương thức thanh toán là trả khi nhận hàng và thanh toán qua Paypal",
+        "Bạn có thể thanh toán đơn hàng bằng Paypal hoặc giao nhận hàng COD"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Đơn hàng sẽ được vận chuyển đến chỗ tôi khi nào?",
+        "Thời điểm nhận được hàng là bao lâu?",
+        "Khoảng thời gian giao hàng mất bao nhiêu ngày?"
+      ],
+      "responses": [
+        "Tùy thuộc vào địa chỉ của bạn, thời gian giao nhận hàng có thể kéo dài từ 2-4 ngày"
+      ]
+    }
+  ]
+}
